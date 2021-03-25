@@ -66,31 +66,3 @@ function animate() {
 }
 
 animate();
-
-
-
-
-//---------notes--------//
-//c for context
-//x, y, width, height
-//c.fillStyle = 'red';
-//c.fillRect(100, 100, 100, 100);
-
-//line
-//c.beginPath();
-//c.moveTo(50, 300);
-//c.lineTo(300, 100);
-//c.lineTo(400, 300);
-//c.strokeStyle = 'red';
-//c.stroke();
-
-
-//draw 3 circles at random
-//for (var i = 0; i < 3; i++) {
-  //var x = Math.random() * window.innerWidth;
-  //var y = Math.random() * window.innerHeight;
-  //c.beginPath();
-  //c.arc(x, y, 30, 0, Math.PI * 2, false);
-  //c.strokeStyle = 'blue';
-  //c.stroke();
-//};
